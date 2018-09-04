@@ -9,16 +9,18 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-Create a new vue/cli proyect
+Create a new `vue/cli` webpack proyect
 
 ```sh
-$ docker-compose run --rm node vue create webpack web
+$ docker-compose run --rm vue bash
+$$ vue init webpack . 
 ```
 
-Copy your proyect in `web/` folder
+Run dev
 
 ```sh
-$ web/
+$ docker-compose run --rm vue bash
+$$ npm run dev
 ```
 
 Access project
