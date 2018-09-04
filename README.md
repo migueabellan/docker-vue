@@ -17,7 +17,7 @@ $ docker-compose build
 Create and run new `vue/cli` webpack proyect
 
 ```sh
-$ docker-compose ps
+$ docker-compose up
 or
 $ docker-compose run --rm --service-ports vue
 ```
@@ -25,7 +25,7 @@ $ docker-compose run --rm --service-ports vue
 Or copy your vue in `web/` and run
 
 ```sh
-$ docker-compose ps
+$ docker-compose up
 or
 $ docker-compose run --rm --service-ports vue
 ```
