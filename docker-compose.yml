@@ -2,9 +2,12 @@ version: '3'
 
 services:
 
-  node:
+  vue:
     build: services/vue
+    container_name: vue
+    restart: always
+    working_dir: /www
+    volumes:
+      - ./web:/www
     ports:
       - 8080:8080
-    volumes:
-      - ./web:/web
