@@ -8,6 +8,4 @@ WORKDIR /www
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
 
-EXPOSE 8080
-
-CMD ["npm", "run", "dev"]
+ENV HOST 0.0.0.0
