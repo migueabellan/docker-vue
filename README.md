@@ -2,25 +2,22 @@
 
 > Docker-compose for @vue/cli (NODE - VUE3)
 
-Build and run container
+Build container
 
 ```sh
 $ docker-compose build
-$ docker-compose up -d
 ```
 
-Create a new `vue/cli` webpack proyect
+Create and run new `vue/cli` webpack proyect
 
 ```sh
-$ docker-compose run --rm vue bash
-$$ vue init webpack . 
+$ docker-compose ps
 ```
 
-Run dev
+Or copy your vue in `web/` and run
 
 ```sh
-$ docker-compose run --rm vue bash
-$$ npm run dev
+$ docker-compose ps
 ```
 
 Access project
