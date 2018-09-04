@@ -11,13 +11,13 @@ $ docker-compose build
 Create and run new `vue/cli` webpack proyect
 
 ```sh
-$ docker-compose ps
+$ docker-compose run --rm vue
 ```
 
 Or copy your vue in `web/` and run
 
 ```sh
-$ docker-compose ps
+$ docker-compose run --rm vue
 ```
 
 Access project
