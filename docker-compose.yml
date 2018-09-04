@@ -5,7 +5,6 @@ services:
   vue:
     build: services/vue
     container_name: vue
-    command: bash -c "npm run dev"
     working_dir: /www
     volumes:
       - ./web:/www

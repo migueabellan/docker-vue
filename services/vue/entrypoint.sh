@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ls -la
+pwd
+
 if [ ! -f "index.html" ]; 
 then
     echo "Install webpack"
