@@ -2,6 +2,12 @@
 
 > Docker-compose for @vue/cli (NODE - VUE3)
 
+Donwload using git
+
+```sh
+$ https://github.com/migueabellan/docker-vue.git
+```
+
 Build container
 
 ```sh
